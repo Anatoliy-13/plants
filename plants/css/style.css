@@ -1,0 +1,1799 @@
+:root {
+    --green:#499A18;
+    --orange: #E06733;
+    --grey:#717171;
+    --dark-grey:#636060;
+    --Bg-section:#EDF2EC;
+    --Links-nav:#010201;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: var(--Bg-section); */
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+  }
+
+body {
+    max-width: 1440px;
+    height: 100%;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-size: cover;
+}
+
+/*section header*/
+
+header {
+    height: 134px;
+    background-color: var(--Bg-section);
+}
+
+.header-wrapper {
+    padding: 42px 0;
+}
+
+.header-navigator {
+    display: flex;
+    max-width: 1184px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo {
+    align-items: center;
+    display: flex;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    width: 67.05px;
+    background-image: url(../image/logo_vector.svg);
+    background-repeat: no-repeat;
+    background-position: 4px -5px;
+    text-align: end;
+    margin-left: -20px;
+}
+
+.header-wrapper-links {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.header-navigator a {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: var(--Links-nav);
+    margin-left: 53px;
+}
+
+.header-navigator a:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+
+/*section welcome*/
+
+.welcome {
+    height: 532px;
+    background-color: var(--Bg-section);
+}
+.welcome-wrapper {
+    max-width: 1222px;
+    height: 407px;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.welcome-photo {
+    background-image: url(../image/leafs.png);
+    background-repeat: no-repeat;
+    width: 449px;
+    height: 411px;
+    background-position-y: bottom;
+    background-size: cover;
+}
+.welcome-text {
+    width: 594px;
+    height: 340px;
+}
+.welcome-text h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: var(--grey);
+    margin-top: 35px;
+    margin-left: 46px;
+}
+.welcome-text span {
+    color: var(--green);
+}
+.welcome-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: var(--dark-grey);
+    margin-top: 45px;
+    margin-left: 46px;
+}
+.welcome-text button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    width: 158px;
+    height: 44px;
+    cursor: pointer;
+    border: 2px solid var(--orange);
+    border-radius: 10px;
+    margin-top: 48px;
+    margin-left: 46px;
+}
+
+.welcome-text button:hover {
+    color: #FFFFFF;
+    background-color: var(--orange);
+    transition: all 0.3s;
+}
+
+/*section about*/
+
+.about {
+    height: 666px;
+    background-color: #FFFFFF;
+}
+
+.about-wrapper {
+    max-width: 1222px;
+    height: 479px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding-top: 93px;
+}
+
+.about-text {
+    width: 605px;
+    height: 350px;
+    margin-top: 68px;
+    background-color: #FFFFFF;
+}
+
+.about-text h2 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--green);
+    height: 102px;
+    width: 463px;
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+}
+
+.about-text span {
+    color: var(--orange);
+    background-color: #FFFFFF;
+}
+
+.about-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--dark-grey);
+    background-color: #FFFFFF;
+}
+
+.about-photo {
+    background-image: url(../image/houseplant1.png);
+    width: 464px;
+    height: 479px;
+    background-color: #FFFFFF;
+}
+
+/*section service*/
+
+.service {
+    min-height: 1300px;
+    background-color: var(--Bg-section);
+}
+.service-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 121px;
+    margin: 0 109px;
+}
+
+.service-content {
+    width: 82.3%;
+    height: 105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 77px;
+}
+
+.service-content-text {
+    width: 306px;
+    height: 94px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--green);
+}
+
+.service-content-button {
+    width: 559px;
+    height: 50px;
+    margin-top: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service-content-button button, .prices-wrapper-content-main button  {
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    width: 161px;
+    height: 50px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--orange);
+}
+
+.service-content-button button:hover {
+    cursor: pointer;
+    /* color: #FFFFFF;
+    background-color: var(--orange);
+    transition: all 0.3s; */
+}
+
+.service-btn.active {
+    background-color: #E06733;
+    color: #FFFFFF;
+}
+#plant1.active, #plant2.active, #plant3.active, #lawn1.active, #garden1.active, #garden2.active {
+    filter: blur(3px);
+    animation: 4s;
+}
+
+
+.prices-wrapper-content-main button:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: var(--orange);
+    transition: all 0.3s;
+}
+
+
+.service-cards {
+    height: 100%;
+}
+
+.service-cards-tabs {
+    display: none;
+}
+
+.service-cards_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 57px;
+}
+
+.service-item {
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 330px;
+    transition: all 0.3s ease 0s;
+    border: 1px solid transparent;
+}
+
+.service-item:hover {
+	border: 1px solid var(--orange);
+}
+
+.service-item-link {
+    text-decoration: none;
+}
+
+.service-item-image {
+    display: block;
+    width: 100%;
+    max-width: 330px;
+    max-height: 350px;
+}
+
+.service-item-text {
+    padding: 10px 29px 36px 29px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px
+}
+
+.service-item h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--orange);
+    margin-top: 2px;
+}
+
+.service-item h3:hover, .service-item p:hover, .prices-wrapper-price_button button:hover {
+    color: #499A18;
+}
+
+.service-item p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--grey);
+    margin-top: 13px;
+    text-align: center;
+}
+.service-item-text {
+    height: 100px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+
+/*section prices*/
+
+.prices {
+    min-height: 560px;
+    background-color: #FFFFFF;
+}
+
+.prices-wrapper {
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    margin: 0 109px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices-wrapper-price {
+    width: 332px;
+    /* height: 391px; */
+    background-color: #FFFFFF;
+}
+
+.prices-wrapper-content {
+    width: 452px;
+    /* height: 391px; */
+    background-color: #FFFFFF;
+}
+.prices-wrapper-price_text h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.prices-wrapper-price_button {
+    width: 332px;
+    /* height: 282px; */
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.prices-main {
+    width: 250px;
+    /* height: 214px; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 34px 41px;
+}
+
+.prices-main_list {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    background-color: var(--Bg-section);
+    border-radius: 16px;
+}
+.prices-main_list:last-child {
+    margin-bottom: 0;
+}
+
+.prices-main_list:hover {
+    background-color: #D6E7D2;
+}
+.prices-main_list-up {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 40px;
+    background-color: var(--Bg-section);
+    border-radius: 16px;
+}
+
+.prices-main_list-down {
+    display: none;
+}
+
+.prices-main_list-down-active {
+    /* display: block; */
+    cursor: pointer;
+    /* background-color: #D6E7D2; */
+    transition: all 0.3s ease 0s;
+}
+
+.prices-main_list-down {
+    padding-left: 40px;
+    margin-bottom: 12px;
+}
+.prices-main_list-down-text {
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 10px;
+    color: #717171;
+    margin-bottom: 6px;
+}
+
+.prices-main_list-down-block {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.prices-main_list-down-block span {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--orange);
+}
+
+.prices-main_list-down-link {
+    max-width: max-content;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 3px 20px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    transition: all 0.3s ease 0s;
+}
+
+.prices-main_list-up:hover,  .prices-main_list:hover  {
+    cursor: pointer;
+    background-color: #D6E7D2;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+/* .prices-main_list span, .prices-main_list img {
+    background-color: var(--Bg-section);
+} */
+.prices-wrapper-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices-wrapper-content-main {
+    width: 449px;
+    height: 191px;
+    background-color: #FFFFFF;
+}
+
+.prices-wrapper-content-photo {
+    width: 152px;
+    height: 175px;
+    margin-left: 300px;
+    background-color: #FFFFFF;
+}
+
+.prices-wrapper-content-main h3 {
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+}
+
+.prices-wrapper-content-main span {
+    color: var(--green);
+    background-color: #FFFFFF;
+}
+
+.prices-wrapper-content-main button {
+    font-weight: 700;
+    background-color: #FFFFFF;
+    margin-left: 290px;
+    margin-top: 40px;
+} 
+
+.prices-wrapper-content-photo {
+    background-image: url(../image/leafs22.png);
+    margin-top: 33px;
+}
+
+/*section contacts*/
+
+.contacts {
+    min-height: 550px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--Bg-section);
+}
+
+
+.contacts-photo {
+    background-image: url(../image/contact_woman.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    margin-left: 109px;
+    margin-top: 51px;
+}
+
+.contacts-text h2 {
+    width: 195px;
+    height: 51px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--green);
+    margin-left: 48px;
+    margin-top: 58px;
+}
+
+.contacts-button {
+    width: 450px;
+    height: 50px;
+    background-color: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 110px;
+    margin-top: 146px;
+    position: relative;
+}
+
+.contacts-button:hover {
+    cursor: pointer;
+}
+
+.contacts-button span {
+    width: 204px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    /* background-color: #D6E7D2; */
+    margin-left: 20px;
+    text-align: start;
+}
+
+.contacts-button img {
+    margin-right: 35px;
+    background: #D6E7D2;
+}
+
+
+
+.itc-select__dropdown {
+    position: absolute;
+    width: 450px;
+    z-index: 2;
+    display: none;
+    overflow-y: auto;
+    background: #DCE9D9;
+    padding: 27px 35px 31px 35px;
+}
+
+.itc-select__dropdown:hover {
+    cursor: pointer;
+}
+
+.itc-select__options {
+    list-style-type: none;
+    
+}
+
+.itc-select__option {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: var(--green);
+    border-bottom: 1px solid #D9D9D9;
+    margin-top: 12px;
+    transition: all 0.3s ease 0s;
+}
+
+.itc-select__option:first-child {
+    margin-top: 0;
+}
+
+.contacts-button-active {
+    background-color: #C1E698;
+    box-shadow: none;
+}
+
+.itc-select__dropdown-active {
+    display: block;
+}
+.itc-select__option-active {
+    border-bottom: 1px solid #717171;
+}
+
+
+
+.contacts__adress-list {
+    display: none;
+}
+
+.contacts__adress-list-active {
+    display: block;
+}
+
+.contacts__adress {
+    margin-top: 47px;
+    padding: 17px 33px 32px 33px;
+    max-width: 448px;
+    background: #EDF2EC;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.contacts__adress {
+    display: none;
+}
+
+.contacts__adress-active {
+    display: block;
+}
+
+.contacts__list {
+    list-style-type: none;
+}
+
+.contacts__item {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: var(--grey);
+}
+
+.contacts__item-title {
+    display: inline-block;
+    color: #000000;
+    min-width: 130px;
+}
+
+.contacts__adress-link {
+    display: block;
+    max-width: 122px;
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    font-family: 'Inika';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: var(--dark-grey);
+    padding: 7px 0;
+    margin: 31px auto 0;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+/*section footer*/
+
+.footer {
+    height: 130px;
+    background-color: #FFFFFF;
+}
+.footer-content {
+    max-width: 1222px;
+    padding: 39px 0px;
+    margin: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content a {
+    background-color: #FFFFFF;
+}
+
+.footer-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 170px;
+    background-color: #FFFFFF;
+}
+
+.footer-data {
+    max-width: 182px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-data span, .footer-data p, .footer-content-wrapper span {
+    background-color: #FFFFFF;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.footer-data span:hover, .footer-data p:hover {
+    color: var(--orange);
+    transition: all 0.3s;
+}
+
+
+.footer-text {
+    max-width: 211px;
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+    margin-left: 16px;
+}
+
+.footer-text:hover {
+    color: #E06733;
+    transition: all 0.3s;
+}
+
+.footer-link {
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 188px;
+}
+
+.footer-link_social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    list-style-type: none;
+    max-width: 188px;
+    width: 100%;
+}
+
+.footer-link_social a {
+    background-color: #FFFFFF;
+}
+
+.footer-link_inst img, .footer-link_fb img, .footer-link_tw img, .footer-link_pin img {
+    background-color: #FFFFFF;
+}
+
+.menu-burger, .burger {
+    display: none;
+}
+
+
+
+
+/*tab js*/
+
+
+
+
+
+
+/*section width 935px*/
+
+@media (max-width: 935px) {
+    body {
+        max-width: 935px;
+    }
+
+    .about-photo {
+        background-image: url(../image/houseplant2.png);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 258px;
+        margin-bottom: 71px;
+    }
+
+    .service {
+        max-height: 1780px;
+    }
+    .service-wrapper {
+        margin: 7px 50px;
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .service-content {
+       flex-direction:column;
+       width: 559px;
+       height: 184px;
+       margin-bottom: 42px;
+    }
+
+    .service-content-text {
+        font-size: 35px;
+        line-height: 46px;
+        margin: 1px -23px;
+    }
+    .service-content-button {
+        margin-left: -24px;
+    }
+
+    .service-cards {
+        display: none;
+    }
+
+    .service-cards-tabs {
+        display: block;
+    }
+
+    .service-cards-tabs {
+        height: 1426px;
+        width: 668px;
+    }
+
+    .service-cards_main {
+        gap: 37px;
+    }
+
+    .service-item {
+        max-width: 280px;
+    }
+
+    .service-cards-tabs {
+        margin-left: -23px;
+    }
+    .service-item p {
+        margin-top: 9px;
+    }
+
+    .prices {
+        min-height: 578px;
+    }
+
+    .prices-wrapper {
+        margin: 0 50px;
+    }
+
+    .prices-wrapper-price {
+        margin-top: -16px;
+    }
+    .prices-wrapper-price_text h2 {
+        font-size: 35px;
+        line-height: 42px;
+        padding: 9px 15px;
+        margin-bottom: 48px;
+    }
+
+    .prices-wrapper-content {
+        width: 296px;
+        height: 450px;
+    }
+    .prices-wrapper-content-main {
+        width: 296px;
+    }
+    .prices-wrapper-content-main h3 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 93px;
+    }
+    .prices-wrapper-content-main button {
+        margin-left: 135px;
+        margin-top: 28px;
+    }
+    .prices-wrapper-content-photo {
+        background-image: url(../image/leafs22.png);
+        background-repeat: no-repeat;
+        margin-left: 143px;
+        margin-top: 83px;
+        width: 168px;
+        height: 188px;
+    }
+}
+
+
+
+/*section width 768px*/
+
+@media (max-width: 768px) {
+    body {
+        max-width: 768px;
+    }
+
+    header {
+        height: 117px;
+    }
+
+    .header-navigator {
+        max-width: 668px;
+    }
+    .logo h1 {
+        margin-top: -3px;
+        background-position: -1px -5px;
+        margin-left: 0;
+    }
+    .header-wrapper-links {
+        height: 39px;
+    }
+    .header-navigator a {
+        margin-left: 47px;
+    }
+
+    .welcome {
+        height: 420px;
+    }
+    .welcome-wrapper {
+        max-width: 668px;
+        height: 310px;
+        padding-top: 40px;
+        padding-bottom: 70px;
+        flex-direction: row-reverse;
+    }
+
+    .welcome-photo {
+        width: 280px;
+        height: 255px;
+        background-image: url(../image/leafs2.png);
+        margin-top: 3px;
+    }
+
+    .welcome-text {
+        width: 346px;
+        height: 310px;
+    }
+
+    .welcome-text h2 {
+        font-size: 35px;
+        margin-top: 0px;
+        margin-left: 2px;
+    }
+
+    .welcome-text p {
+        font-size: 16px;
+        margin-top: 32px;
+        margin-left: 7px;
+        line-height: 25px;
+    }
+
+    .welcome-text button {
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+
+    .about {
+        height: 784px;
+    }
+
+    .about-wrapper {
+        flex-direction: column;
+        height: 760px;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .about-text {
+        max-width: 668px;
+        margin: 40px 50px;
+    }
+
+    .about-text h2 {
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+        margin-left: 70px;
+    }
+    .about-text p {
+        width: 668px;
+        margin-left: -33px;
+    }
+
+    .about-photo {
+        background-image: url(../image/houseplant2.png);
+        background-repeat: no-repeat;
+        width: 250px;
+        height: 258px;
+        margin-bottom: 71px;
+    }
+
+    .service {
+        max-height: 1780px;
+    }
+    .service-wrapper {
+        margin: 7px 50px;
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .service-content {
+       flex-direction:column;
+       width: 559px;
+       height: 184px;
+       margin-bottom: 42px;
+    }
+
+    .service-content-text {
+        font-size: 35px;
+        line-height: 46px;
+        margin: 1px -23px;
+    }
+    .service-content-button {
+        margin-left: -24px;
+    }
+
+    .service-cards {
+        display: none;
+    }
+
+    .service-cards-tabs {
+        display: block;
+    }
+
+    .service-cards-tabs {
+        height: 1426px;
+        width: 668px;
+    }
+
+    .service-cards_main {
+        gap: 37px;
+    }
+
+    .service-item {
+        max-width: 280px;
+    }
+
+    .service-cards-tabs {
+        margin-left: -23px;
+    }
+    .service-item p {
+        margin-top: 9px;
+    }
+
+    .prices {
+        min-height: 578px;
+    }
+
+    .prices-wrapper {
+        margin: 0 50px;
+    }
+
+    .prices-wrapper-price {
+        margin-top: -16px;
+    }
+    .prices-wrapper-price_text h2 {
+        font-size: 35px;
+        line-height: 42px;
+        padding: 9px 15px;
+        margin-bottom: 48px;
+    }
+
+    .prices-wrapper-content {
+        width: 296px;
+        height: 450px;
+    }
+    .prices-wrapper-content-main {
+        width: 296px;
+    }
+    .prices-wrapper-content-main h3 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 93px;
+    }
+    .prices-wrapper-content-main button {
+        margin-left: 135px;
+        margin-top: 28px;
+    }
+    .prices-wrapper-content-photo {
+        background-image: url(../image/leafs22.png);
+        background-repeat: no-repeat;
+        margin-left: 143px;
+        margin-top: 83px;
+        width: 168px;
+        height: 188px;
+    }
+
+    .contacts {
+        min-height: 739px;
+        flex-direction: column-reverse;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .contacts-photo {
+        background-image: url(../image/contact_woman22.png);
+        width: 200px;
+        height: 250px;
+        margin-left: 136px;
+        
+    }
+    .contacts-text h2 {
+        margin-left: 130px;
+        margin-top: -300px;
+    }
+
+    .contacts-button {
+        margin-right: 0px;
+        margin-top: 190px;
+    }
+
+    .footer {
+        height: 181px;
+    }
+    .footer-content {
+        flex-direction: column;
+        padding: 19px 0px;
+    }
+    .footer-text {
+        margin-left: 1px;
+        padding-top: 2px;
+    }
+    .footer-content a {
+        margin-top: -12px;
+    }
+    .footer-link {
+        margin-top: 12px;
+    }
+    .footer-data {
+        margin-top: 0px!important;
+    }
+}
+
+
+/*section width 700px*/
+
+@media (max-width: 700px) {
+    body {
+        max-width: 700px;
+    }
+    header {
+        height: 96px;
+    }
+
+    .header-wrapper {
+        padding: 36px 0;
+    }
+    .header-wrapper-links {
+        display: none;
+    }
+    .menu-burger {
+        display: block;
+        background-image: url(../image/burger.svg);
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 31px;
+    }
+
+    /*burger-menu*/
+
+    .menu-burger:hover {
+        cursor: pointer;
+    }
+    .menu-burger    {
+        display: block;
+    }
+    .menu-burger.active {
+        opacity: 1;
+    }
+    .burger {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--Bg-section);
+        width: 100%;
+        height: 60%;
+        text-align: center;
+        transition: 0.3s;
+        display: block;
+    }
+    .current-link {
+        margin: 16px 0;
+    }
+    .burger.active {
+        left: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .burger-links {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 30px auto;
+    }
+    .burger-links a {
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 50px;
+        color: var(--Links-nav);
+    }
+    .burger-links a:hover {
+        cursor: pointer;
+    color: var(--orange);
+    }
+
+    .menu-burger-icon {
+        display: block;
+        background-image: url(../image/iconX.svg);
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 31px;
+        margin: 38px 38px;
+        cursor: pointer;
+    }
+   
+
+    .header-navigator {
+        width: 88%;
+        margin-left: 25px;
+    }
+    .menu-burger {
+        margin-top: -2px;
+    }
+
+    .service {
+        max-height: 3150px;
+    }
+    .service-wrapper {
+        margin: 0 25px;
+        padding-top: 21px;
+        padding-bottom: 0;
+    }
+    .service-content {
+        width: 252px;
+        margin-bottom: 48px;
+    }
+    .service-content-text {
+        font-size: 25px;
+        line-height: 33px;
+        margin: 8px 0px;
+        width: 187px;
+    }
+    .service-content-button {
+        margin-left: 0;
+        width: 252px;
+        height: 79px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .service-content-button button, .prices-wrapper-content-main button {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .service-cards-tabs {
+        margin-left: 25px;
+        width: 330px;
+        height: 3150px;
+        margin-right: 50px;
+    }
+    .service-cards_main {
+        gap: 34px;
+        width: 330px;
+    }
+    .prices {
+        min-height: 512px;
+    }
+    .prices-wrapper {
+        margin: 0 79px;
+        padding-top: 0;
+        flex-wrap: wrap;
+    }
+    .prices-wrapper-content-photo {
+        display: none;
+    }
+    .prices-wrapper-price {
+        width: 224px;
+        height: 328px;
+        margin-top: 0;
+    }
+    .prices-wrapper-price_text h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        padding: 25px 72px;
+    }
+    .prices-wrapper-price_button {
+        width: 224px;
+        height: 235px;
+    }
+    .prices-main {
+        width: 180px;
+        height: 50px;
+        margin: 27px 19px;
+        font-size: 15px;
+        gap: 12px;
+    }
+    .prices-main_list {
+        font-size: 15px;
+    }
+    .prices-main_list span {
+        margin: 0px -9px;
+    }
+    .prices-wrapper-content {
+        width: 230px;
+        height: 77px;
+        align-items: center;
+    }
+    .prices-wrapper-content-main {
+        width: 233px;
+        height: 79px;
+    }
+    .prices-wrapper-content-main h3 {
+        margin-right: 40px;
+        font-size: 20px;
+        line-height: 35px;
+        margin-top: 18px;
+        text-align: center;
+        width: 230px;
+    }
+    .prices-wrapper-content-main button {
+        margin-left: 51px;
+        margin-top: 20px;
+    }
+    .about {
+        height: 517px;
+    }
+    .about-wrapper {
+        height: 510px;
+        padding: 0px 25px;
+    }
+    .about-text {
+        max-width: 360px;
+        margin: 40px 0px 0;
+    }
+    .about-text h2 {
+        font-size: 25px;
+        line-height: 33px;
+        width: 288px;
+        margin: -10px 36px 0px;
+    }
+    .about-text p {
+        font-size: 15px;
+        line-height: 25px;
+        width: 330px;
+        margin-left: 14px;
+        margin-top: -22px;
+    }
+    .about-photo {
+        background-image: url(../image/houseplant22.jpg);
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 150px;
+        margin-top: -62px;
+        margin-bottom: 22px;
+    }
+}
+
+/*section width 600px*/
+
+@media (max-width: 600px) {
+    body {
+        max-width: 600px;
+    }
+    .welcome {
+        height: 300px;
+    }
+    .welcome-wrapper {
+        height: 252px;
+        padding: 24px 25px;
+    }
+    .welcome-photo {
+        display: none;
+    }
+    .welcome-text {
+        height: 100%;
+        width: 100%;
+    }
+    .welcome-text h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-left: 0;
+    }
+    .welcome-text p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 21px;
+        margin-left: 0px;
+    }
+    .welcome-text button {
+        width: 100px;
+        height: 34px;
+        margin-top: 27px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .contacts {
+        min-height: 445px;
+    }
+    .contacts-photo {
+        background-image: url(../image/contact_woman222.png);
+        width: 100px;
+        height: 125px;
+        margin-left: 98px;
+    }
+    .contacts-text {
+        margin-left: -14px;
+    }
+    .contacts-text h2 {
+        margin-left: 102px;
+        margin-top: -205px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .contacts-button {
+        width: 300px;
+        height: 50px;
+        margin-top: 137px;
+    }
+    .contacts-button img {
+        margin-right: 23px;
+    }
+}
+
+/*section width 380px*/
+
+@media (max-width: 380px) {
+    body {
+        max-width: 380px;
+        min-height: 5166px;
+    }
+
+    header {
+        height: 96px;
+    }
+
+    .header-wrapper {
+        padding: 36px 0;
+    }
+    .header-wrapper-links {
+        display: none;
+    }
+    .menu-burger {
+        display: block;
+        background-image: url(../image/burger.svg);
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 31px;
+    }
+    .header-navigator {
+        width: 87%;
+        margin-left: 25px;
+    }
+    .menu-burger {
+        margin-top: -2px;
+    }
+    .welcome {
+        height: 300px;
+    }
+    .welcome-wrapper {
+        height: 252px;
+        padding: 24px 25px;
+    }
+    .welcome-photo {
+        display: none;
+    }
+    .welcome-text {
+        height: 100%;
+        width: 100%;
+    }
+    .welcome-text h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-left: 0;
+    }
+    .welcome-text p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 21px;
+        margin-left: 0px;
+    }
+    .welcome-text button {
+        width: 100px;
+        height: 34px;
+        margin-top: 27px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .about {
+        height: 517px;
+    }
+    .about-wrapper {
+        height: 510px;
+        padding: 0px 25px;
+    }
+    .about-text {
+        max-width: 360px;
+        margin: 40px 0px 0;
+    }
+    .about-text h2 {
+        font-size: 25px;
+        line-height: 33px;
+        width: 288px;
+        margin: -10px 36px 0px;
+    }
+    .about-text p {
+        font-size: 15px;
+        line-height: 25px;
+        width: 330px;
+        margin-left: 14px;
+        margin-top: -22px;
+    }
+    .about-photo {
+        background-image: url(../image/houseplant22.jpg);
+        background-repeat: no-repeat;
+        width: 150px;
+        height: 150px;
+        margin-top: -62px;
+        margin-bottom: 22px;
+    }
+
+    .service {
+        max-height: 3150px;
+    }
+    .service-wrapper {
+        margin: 0 25px;
+        padding-top: 21px;
+        padding-bottom: 0;
+    }
+    .service-content {
+        width: 252px;
+        margin-bottom: 48px;
+    }
+    .service-content-text {
+        font-size: 25px;
+        line-height: 33px;
+        margin: 8px 0px;
+        width: 187px;
+    }
+    .service-content-button {
+        margin-left: 0;
+        width: 252px;
+        height: 79px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .service-content-button button, .prices-wrapper-content-main button {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .service-cards-tabs {
+        margin-left: 25px;
+        width: 330px;
+        height: 3150px;
+        margin-right: 50px;
+    }
+    .service-cards_main {
+        gap: 34px;
+        width: 330px;
+    }
+
+    .prices {
+        min-height: 512px;
+    }
+    .prices-wrapper {
+        margin: 0 79px;
+        padding-top: 0;
+        flex-wrap: wrap;
+    }
+    .prices-wrapper-content-photo {
+        display: none;
+    }
+    .prices-wrapper-price {
+        width: 224px;
+        height: 328px;
+        margin-top: 0;
+    }
+    .prices-wrapper-price_text h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        padding: 25px 72px;
+    }
+    .prices-wrapper-price_button {
+        width: 224px;
+        height: 235px;
+    }
+    .prices-main {
+        width: 180px;
+        height: 50px;
+        margin: 27px 19px;
+        font-size: 15px;
+        gap: 12px;
+    }
+    .prices-main_list {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .prices-main_list span {
+        margin: 0px -9px;
+    }
+    .prices-wrapper-content {
+        width: 230px;
+        height: 77px;
+        align-items: center;
+    }
+    .prices-wrapper-content-main {
+        width: 233px;
+        height: 79px;
+    }
+    .prices-wrapper-content-main h3 {
+        margin-right: 40px;
+        font-size: 20px;
+        line-height: 35px;
+        margin-top: 18px;
+        text-align: center;
+        width: 230px;
+    }
+    .prices-wrapper-content-main button {
+        margin-left: 51px;
+        margin-top: 20px;
+    }
+
+
+    .contacts-main {
+        min-height: 445px;
+        list-style-type: none;
+    }
+
+    .contacts {
+        min-height: 445px;
+    }
+    .contacts-photo {
+        background-image: url(../image/contact_woman222.png);
+        width: 100px;
+        height: 125px;
+        margin-left: 98px;
+    }
+    .contacts-text {
+        margin-left: -14px;
+    }
+    .contacts-text h2 {
+        margin-left: 102px;
+        margin-top: -205px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .contacts-button {
+        width: 300px;
+        height: 50px;
+        margin-top: 137px;
+    }
+    .contacts-button img {
+        margin-right: 23px;
+    }
+
+    .footer {
+        height: 146px;
+    }
+    .footer-content {
+        padding: 8px 0;
+    }
+    .footer-link {
+        margin-top: -1px;
+    }
+
+    @media (max-width: 320px) {
+
+        .about-text {
+            max-width: 320px;
+        }
+        .about-text p {
+            width: 312px;
+        }
+        .service-cards_main{
+            width: 320px;
+        }
+        .service-cards-tabs {
+            margin: 0;
+            width: 319px;
+        }
+        .service-wrapper {
+            margin: 0;
+        }
+    }
+}
